@@ -1,7 +1,7 @@
 Sample Push API
 ===
 
-https://kzhrk.github.io/sample-push-api/
+https://kzhrk-sandbox.github.io/sample-push-api/
 
 ## Test
 
