@@ -1,0 +1,25 @@
+{
+  "private": true,
+  "name": "sample-push-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "npm run watch:jade & npm run watch:copy & npm run server",
+    "watch:jade": "watch 'npm run jade' src",
+    "watch:copy": "watch 'npm run copy' src/_static",
+    "server": "browser-sync start --server public/ --files public/**/*",
+    "jade": "jade src --hierarchy --out ./public",
+    "deploy": "gh-pages -d public",
+    "copy": "ncp ./src/_static ./public"
+  },
+  "author": "kzhrk",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.11.2",
+    "gh-pages": "^0.11.0",
+    "jade": "^1.11.0",
+    "ncp": "^2.0.0",
+    "watch": "^0.17.1"
+  }
+}
