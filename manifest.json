@@ -3,7 +3,7 @@
   "name": "webapp name",
   "short_name": "webapp name",
   "icons": [{
-        "src": "https://placekitten.com/144/144",
+        "src": "icon.png",
         "sizes": "144x144",
         "type": "image/png"
       }],
