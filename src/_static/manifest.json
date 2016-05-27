@@ -1,12 +1,4 @@
 {
-  "lang": "ja",
-  "name": "webapp name",
-  "short_name": "webapp name",
-  "icons": [{
-        "src": "https://placekitten.com/144/144",
-        "sizes": "144x144",
-        "type": "image/png"
-      }],
-  "start_url": "https://example.com/",
-  "display": "standalone"
+  "name": "sample-push-api",
+  "gcm_sender_id": "133777508873"
 }
