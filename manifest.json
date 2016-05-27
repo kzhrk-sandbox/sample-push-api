@@ -7,6 +7,6 @@
         "sizes": "144x144",
         "type": "image/png"
       }],
-  "start_url": "https://example.com/",
+  "start_url": "https://kzhrk-sandbox.github.io/sample-push-api/",
   "display": "standalone"
 }
