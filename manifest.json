@@ -3,7 +3,7 @@
   "name": "webapp name",
   "short_name": "webapp name",
   "icons": [{
-        "src": "icon.png",
+        "src": "https://kzhrk-sandbox.github.io/sample-push-api/icon.png",
         "sizes": "144x144",
         "type": "image/png"
       }],
