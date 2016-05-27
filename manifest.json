@@ -1,4 +1,5 @@
 {
   "name": "sample-push-api",
-  "gcm_sender_id": "133777508873"
+  "gcm_sender_id": "133777508873",
+  "hoge": true
 }
